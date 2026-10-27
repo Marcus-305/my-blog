@@ -1,0 +1,15 @@
+title: 305博客技巧
+description: 记录编程、学习与生活
+author: 我的暴击技巧无人能及
+lang: zh-CN
+
+theme: minima
+
+url: "https://Marcus-305.github.io"
+baseurl: "/my-blog"
+
+markdown: kramdown
+timezone: Asia/Taipei
+
+plugins:
+  - jekyll-feed

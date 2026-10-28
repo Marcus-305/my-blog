@@ -21,3 +21,5 @@ title: 首页
 
 希望通过持续写作，让每一次学习
 都留下值得回顾的记录Ciallo～(∠・ω< )⌒★。
+
+<script src="{{ '/assets/js/loader.js' | relative_url }}"></script>

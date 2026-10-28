@@ -10,7 +10,7 @@ body {
       rgba(10, 20, 45, 0.55),
       rgba(10, 20, 45, 0.70)
     ),
-    url("{{ '/assets/images/background.jpg' | relative_url }}");
+    url("{{ '/assets/images/backg.png' | relative_url }}");
 
   background-size: cover;
   background-position: center;

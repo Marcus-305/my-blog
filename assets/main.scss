@@ -1,0 +1,48 @@
+---
+---
+
+@import "minima";
+
+/* 主页背景 */
+body {
+  background-image:
+    linear-gradient(
+      rgba(10, 20, 45, 0.55),
+      rgba(10, 20, 45, 0.70)
+    ),
+    url("{{ '/assets/images/background.jpg' | relative_url }}");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+/* 让页面内容区域略微透明 */
+.page-content {
+  background: rgba(255, 255, 255, 0.12);
+}
+
+/* 调整正文颜色 */
+.page-content,
+.page-content p,
+.page-content li {
+  color: #f8fafc;
+}
+
+/* 让文章卡片更容易阅读 */
+.post-list > li {
+  background: rgba(255, 255, 255, 0.88);
+  color: #1e293b;
+  padding: 20px;
+  border-radius: 14px;
+  margin-bottom: 20px;
+}
+
+/* 手机设备不使用固定背景，避免滚动问题 */
+@media (max-width: 768px) {
+  body {
+    background-attachment: scroll;
+  }
+}

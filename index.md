@@ -1,3 +1,12 @@
+<div id="page-loader" aria-label="正在加载页面">
+  <div class="loader-spinner"></div>
+  <p>WELCOME TO MY BLOG</p>
+  <span>正在加载，请稍候……</span>
+</div>
+
+
+
+
 ---
 layout: home
 title: 首页
